@@ -28,7 +28,7 @@ jobs:
     - name: Build and push docker image 
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: testapplicatie/zeinkarzon/testapplicatie
+        image: zeinkarzon/testapplicatie
         tags: backend
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
